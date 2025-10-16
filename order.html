@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Singsong Eateries Business Website</title>
+
+</head>
+
+<body>
+
+     <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+
+    <h1 style="background-color: #52ab98; padding: 2%; ">Order Now!</h1>
+    <div class="OrderPage">
+        <h2><strong>Menu</strong><h2>
+
+        <div class="foodcards">
+            <img src="adobongmani.jpg">
+            <input type="checkbox" id="food1" value="120">
+            <label for="food1">Adobong Mani</label><br>
+        </div>
+
+        <div class="foodcards">
+            <img src="taho.jpg">
+            <input type="checkbox" id="food2" value="20">
+            <label for="food2">Taho</label><br>
+        </div>
+
+        <div class="foodcards">
+            <img src="omelet.jpg">
+            <input type="checkbox" id="food3" value="240">
+            <label for="food3">Omelet</label><br>
+        </div>
+
+        <div class="foodcards">
+            <img src="sinigang.jpg">
+            <input type="checkbox" id="food4" value="300">
+            <label for="food4">Sinigang</label><br>
+        </div>
+            
+        <div class="foodcards">
+            <img src="sisig.jpg">
+            <input type="checkbox" id="food5" value="367">
+            <label for="food5">Sisig</label><br>
+        </div>
+    </div>
+
+    <div class="OrderSummary">
+        <h2>Customer Details</h2>
+        <form> 
+            <input id="custname" type="text" placeholder="Enter your name"><br>
+            <input id="custaddress" type="text" placeholder="Enter your address"><br>
+            <input id="custnumber" type="number" placeholder="Enter your number"><br>
+            <button type="button" class="btn-info" py-click="details_pop">Order</button>
+        </form>
+    </div>
+
+
+    <div class="output" id="output"></div>
+    <py-script src="main.py"></py-script>
+</body>
+</html>

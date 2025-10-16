@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- PYSCRIPT -->
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    <!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Singsong Eateries Business Website</title>
+</head>
+
+<body>
+    
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+
+    <div class="HomePageContainer">
+        <div class="HomeScreenTop">
+            <h1>Singsong Eateries</h1>
+            <h2>Welcome to the website of Singsong Eateries!</h2>
+            <p>You may find out more about our products and place online orders here. Enjoy browsing!</p>
+            <h4>All rights reserved to Kaitlyn Nardo.</h4>
+        </div>
+
+         
+
+        <div class="HomeFoodPrices">
+            <h2><strong>Menu Pricelist</strong></h2>
+            <table>
+                <thead class="table-dark">
+                    <td><strong>Product</strong></td>
+                    <td><strong>Price</strong></td>
+                </thead>
+
+                <tbody class="table-active">
+                    <tr>
+                        <td id ="AdobongMani"></td>
+                        <td id="AdobongManiPrice"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="Taho"></td>
+                        <td id="TahoPrice"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="Omelet"></td>
+                        <td id="OmeletPrice"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="Sinigang"></td>
+                        <td id="SinigangPrice"></td>
+                    </tr>
+
+                    <tr>
+                        <td id="Sisig"></td>
+                        <td id="SisigPrice"></td>
+                    </tr>
+                </tbody>
+            </table>
+    
+        </div>
+
+        <div class="ScreenFooter">
+            <h3 id="times"></h3>
+        </div>
+    </div>
+
+    </div>
+    <py-script src="mainsec.py"></py-script>
+</body>
+</html>

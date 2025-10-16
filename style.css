@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  text-align: center; 
+  justify-content:center; 
+  background-color: #c8d8e4;
+  color: white;
+}
+
+
+/* ---NAVBAR--- */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2b6777;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #2b6777;
+}
+
+/* ---HOMEPAGE---*/
+.HomeScreenTop{
+  margin-top: 5%;
+  background-color: #2b6777;
+  text-align: center;
+  justify-content: center;
+  padding: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.HomeFoodPrices{
+  margin-top: 5%;
+  background-color: #2b6777;
+  text-align: center;
+  justify-content: center;
+  padding: 1%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+/* table */
+table{
+  width: 100%;
+  text-align: center;
+  padding: 40%;
+  border-collapse: collapse;
+  border: 5px solid; 
+}
+
+th, td{
+  padding: 2%;
+  text-align:center;
+  background-color: #52ab98;
+  border: 5px solid;
+}
+
+/* ---ORDER PAGE---*/
+
+img{
+  border: 3px solid #ddd;
+  border-radius: 20px;
+  padding: 5px;
+  width: 150px;
+  display: flex;
+  background-color: white;
+}
+
+.foodcards{
+  text-align:center;
+  margin-left: 30%;
+  margin-right: 30%;
+  display: flex;
+}
+
+.OrderPage{
+  background-color: #2b6777; 
+  padding: 2%;
+  margin-top: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.OrderSummary{
+  margin-top: 2%;
+  background-color: #2b6777;
+  padding: 5%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.output{ 
+    margin-top: 2%;
+    white-space: pre-wrap; 
+    background-color: #52ab98;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+/* ---CONTACT PAGE--- */
+
+.card{
+  padding: 16px;
+  text-align: center;
+  background-color: #52ab98;
+	margin-left: 2%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ContactContainerTop{
+  background-color: #2b6777;
+  margin-top: 2%;
+  padding: 1%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.ContactContainerBottom{
+  margin-top: 5%;
+}
+
+
+/* --- */
+
+.ScreenFooter{
+  background-color: #2b6777;
+  margin-top: 10%;
+  padding: 1%;
+  text-align:center;
+  justify-content: center;
+}
+
+
+
+
+
